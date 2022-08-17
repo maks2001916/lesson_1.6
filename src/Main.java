@@ -17,5 +17,15 @@ public class Main {
             arrOne += arr[i];
         }
         System.out.println("Сумма трат за месяц составила " + arrOne + " рублей");
+        //второе задание
+        int arrTwo = 0;
+        for (int i = 0; i < arr.length - 1; i++) {
+            if (arr[i] < arr[i + 1]) {
+                arrTwo = arrTwo + arr[i];
+
+            }
+        }
+        System.out.println(arrTwo);
+        //
     }
 }
